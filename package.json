@@ -16,5 +16,10 @@
     "vue": "^3.4.27",
     "vuepress": "2.0.0-rc.12",
     "vuepress-theme-reco": "^2.0.0-rc.14"
+  },
+  "devDependencies": {
+    "vuepress-plugin-boxx": "0.0.7",
+    "vuepress-plugin-meting": "^0.3.3",
+    "vuepress-plugin-ribbon": "^1.1.6"
   }
 }
