@@ -1,3 +1,6 @@
+---
+lastUpdated: false
+---
 这里，是我用笔尖记录生活、分享感悟的私人角落。
 
 “墨海思微澜”，如同其名，这片墨色的海洋是我思绪的源泉，每一次的书写都是内心微澜的泛起。这里，没有华丽的辞藻，只有真实的我，用文字记录着技术的点滴进步，诉说着日常的感悟与琐碎。
@@ -7,5 +10,33 @@
 同时，这里也是我心灵的驿站。在这里，我记录着生活的点滴，分享着心情的起伏。或许是一篇关于旅行的游记，或许是一段关于友情的回忆，又或许是对某个瞬间的深刻感悟。这些文字，都是我真挚情感的流露，希望它们能触动你的心弦，引起你的共鸣。
 
 如果你也喜欢阅读、喜欢思考，那就请常来“墨海思微澜”做客吧！让我们一起在这片墨海中，感受知识的力量，品味生活的美好。
+<Meting mid="003UTVCN0QvffG" server="tencent" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<!-- 这样就可以在页面单独引入一个播放器咯～ -->
 
-<Boxx type='warning' title='自定义' />
+### Badge <Badge text="beta" type="warning"/> <Badge text="默认主题"/>
+::: tip
+这是一个提示
+:::
+
+::: warning
+这是一个警告
+:::
+
+::: danger
+这是一个危险警告
+:::
+
+::: details
+这是一个详情块，在 IE / Edge 中不生效
+:::
+
+::: danger STOP
+危险区域，禁止通行
+:::
+
+::: details 点击查看代码
+```js
+console.log('你好，VuePress！')
+```
+:::
+## 指南⏰

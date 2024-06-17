@@ -1,12 +1,14 @@
 import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite'
-import { webpackBundler } from '@vuepress/bundler-webpack'
+import { backPlugin } from 'vuepress-plugin-background';
+import { bgmPlayer } from 'vuepress-plugin-bgm-player2x';
+import { live2dPlugin } from 'vuepress-plugin-live2d-plus'
 
 export default defineUserConfig({
   title: "墨海思微澜",
   description: "没有纷扰的社交，没有喧嚣的噪音，沉浸代码和文字的世界中，只有我与我的思绪在代码与文字的海洋里遨游，不断学习进步，用文字记录着技术成长的点滴与生活的美好。",
-  port: 9999,   //运行端口号
+  //port: 9999,   //运行端口号
   bundler: viteBundler(),
   // 添加到html的head顶部的东西
   head: [
@@ -27,28 +29,75 @@ export default defineUserConfig({
       "src": "/js/MouseClickEffect.js"
     }] 
   ],
+  
+  plugins: [
+    
+    bgmPlayer({rootComponent:true,audios: [
+      //网易云id实例
+      {
+        audioID: '574919767',
+        autoplay: true,
+        autoShrink: true,
+        shrinkMode: 'mini',
+
+      }]}
+    ),
+    
+    backPlugin({
+      type: 'normalLine',
+      options:{
+        //背景颜色
+        backColor: '',
+        color: '#00FFFF'
+      }
+    }),
+    
+    live2dPlugin({
+      enable: true,
+      model: {
+        url: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/haru01/haru01.model.json'
+      },
+      display: {
+        position: 'right',
+        width: '189px',
+        height: '420px',
+        xOffset: '50px',
+        yOffset: '-80px'
+      },
+      mobile: {
+        show: true
+      },
+      react: {
+        opacity: 0.8
+      }
+    })
+  ],
+  
   //head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // bundler: webpackBundler(),
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/超人虎IP.png",
-    catalogTitle: "☆目录☆大纲☆",
+    catalogTitle: "☆本文目录☆",
     author: "Mr.Lin",
     authorAvatar: "/head.png",
+    //navbar: false,
     //docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
     //docsBranch: "main",
     //docsDir: "/blogs",
     //repoLabel: "仓库",
     lastUpdatedText: "最近一次更新",
     lastUpdated: "lastUpdated",
-    externalLinkIcon: false,
     subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     editLinkText: "编辑此页",
+    plugins: [
+      'vuepress-plugin-bgm-player2x'
+    ],
     // series 为原 sidebar
     series: {
-      "/docs/": [
+      "/docs/Python/": [
         {
-          text: "python",
+          text: "Python语言",
           children: ["1", "2", "3", "4", "5"],
         },
       ],
@@ -62,84 +111,22 @@ export default defineUserConfig({
           { text: "标签", link: "/tags/Pythonyuyan/1", icon: "TagGroup" }
         ]
       },
-      { text: "文档", link: "/docs/1.html", icon: "Document" },
+      {  
+        text: "文档", icon: "Document",
+        children: [
+          { text: "Python", link: "/docs/Python/1.html", icon: "LogoPython" },
+          { text: "Java面试", link: "/docs/Python/1.html", icon: "Book" },
+        ]
+      },
+      //{ text: "文档", link: "/docs/Python/1.html", icon: "Document" },
       { text: "时间线", link: "/timeline", icon: "TextLineSpacing" },
       { text: "常用网站", link: "https://dh.xiaokang.me/", icon: "LocationSave" },
       { text: "关于本站", link: "/about", icon: "ChartRing" },
       { text: "其他网站", link: "https://open.163.com/", icon: "", target: "_self"}
     ],
-    plugins: [
-      ['ribbon'],
-    ],
-    /*
-    bulletin: {
-      body: [
-        {
-          type: "text",
-          content: `🎉🎉🎉 reco 主题 2.x 已经接近 Beta 版本，在发布 Latest 版本之前不会再有大的更新，大家可以尽情尝鲜了，并且希望大家在 QQ 群和 GitHub 踊跃反馈使用体验，我会在第一时间响应。`,
-          style: "font-size: 12px;",
-        },
-        {
-          type: "hr",
-        },
-        {
-          type: "title",
-          content: "QQ 群",
-        },
-        {
-          type: "text",
-          content: `
-          <ul>
-            <li>QQ群1：1037296104</li>
-            <li>QQ群2：1061561395</li>
-            <li>QQ群3：962687802</li>
-          </ul>`,
-          style: "font-size: 12px;",
-        },
-        {
-          type: "hr",
-        },
-        {
-          type: "title",
-          content: "GitHub",
-        },
-        {
-          type: "text",
-          content: `
-          <ul>
-            <li><a href="https://github.com/vuepress-reco/vuepress-theme-reco-next/issues">Issues<a/></li>
-            <li><a href="https://github.com/vuepress-reco/vuepress-theme-reco-next/discussions/1">Discussions<a/></li>
-          </ul>`,
-          style: "font-size: 12px;",
-        },
-        {
-          type: "hr",
-        },
-        {
-          type: "buttongroup",
-          children: [
-            {
-              text: "打赏",
-              link: "/docs/others/donate.html",
-            },
-          ],
-        },
-      ],
-    },*/
-    // commentConfig: {
-    //   type: 'valine',
-    //   // options 与 1.x 的 valineConfig 配置一致
-    //   options: {
-    //     // appId: 'xxx',
-    //     // appKey: 'xxx',
-    //     // placeholder: '填写邮箱可以收到回复提醒哦！',
-    //     // verify: true, // 验证码服务
-    //     // notify: true,
-    //     // recordIP: true,
-    //     // hideComments: true // 隐藏评论
-    //   },
-    // },
+   
   }),
   
   // debug: true,
 });
+
