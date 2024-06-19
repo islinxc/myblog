@@ -29,12 +29,12 @@ jobs:
     - run: 
             npm install
             npm run build
-    - uses: manyuanrong/setup-ossutil@v2.0
+    - uses: manyuanrong/setup-ossutil@v1.0
       with:
         # endpoint 可以去oss控制台上查看
         endpoint: "oss-cn-hongkong.aliyuncs.com"
         # 使用我们之前配置在secrets里面的accesskeys来配置ossutil
-        access-key-id: ${{ secrets.ACCESS_KEY_ID }}
+        access-key-id: ${{ secrets.LTAI5TFTH8VCFTQRWXLA6UBW }}
         access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
     - name: Deply To OSS
       run: ossutil cp .vuepress/dist oss://enok-blog/ -rf
