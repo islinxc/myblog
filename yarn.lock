@@ -5889,7 +5889,7 @@ vuepress-theme-reco@2.0.0-rc.14:
     vue "^3.4.27"
     vue-router "^4.3.2"
 
-vuepress@2.0.0-rc.12, vuepress@2.0.0-rc.9:
+vuepress@^2.0.0-rc.12, vuepress@2.0.0-rc.12, vuepress@2.0.0-rc.9:
   version "2.0.0-rc.12"
   resolved "https://registry.npmjs.org/vuepress/-/vuepress-2.0.0-rc.12.tgz"
   integrity sha512-yYAt5le/J8mbyxYAbp/jMg7GMVDYKMRxjWfunJrSYMwqzvrcPCSZZkEgDyOD8AlPIzsuieXROytytvDn/5M4wQ==
