@@ -1,9 +1,10 @@
 import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite'
-import { backPlugin } from 'vuepress-plugin-background';
-import { bgmPlayer } from 'vuepress-plugin-bgm-player2x';
-import { live2dPlugin } from 'vuepress-plugin-live2d-plus'
+//import { backPlugin } from 'vuepress-plugin-background';
+//import { bgmPlayer } from 'vuepress-plugin-bgm-player2x';
+//import { live2dPlugin } from 'vuepress-plugin-live2d-plus'
+//import { nextSearchPlugin } from 'vuepress-plugin-next-search'
 
 export default defineUserConfig({
   title: "墨海思微澜",
@@ -31,7 +32,7 @@ export default defineUserConfig({
   ],
   
   plugins: [
-    
+    /*
     bgmPlayer({rootComponent:true,audios: [
       //网易云id实例
       {
@@ -51,7 +52,17 @@ export default defineUserConfig({
         color: '#00FFFF'
       }
     }),
-    
+    */
+   /*
+    nextSearchPlugin({
+      fullText: true,
+      placeholder: '搜索',
+      frontmatter: {
+        tag: '标签',
+        category: '分类',
+      }
+    }),*/
+    /*
     live2dPlugin({
       enable: true,
       model: {
@@ -70,7 +81,7 @@ export default defineUserConfig({
       react: {
         opacity: 0.8
       }
-    })
+    })*/
   ],
   
   //head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
@@ -90,9 +101,6 @@ export default defineUserConfig({
     lastUpdated: "lastUpdated",
     subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     editLinkText: "编辑此页",
-    plugins: [
-      'vuepress-plugin-bgm-player2x'
-    ],
     // series 为原 sidebar
     series: {
       "/docs/Python/": [
@@ -116,6 +124,7 @@ export default defineUserConfig({
         children: [
           { text: "Python", link: "/docs/Python/1.html", icon: "LogoPython" },
           { text: "Java面试", link: "/docs/Python/1.html", icon: "Book" },
+          { text: "问题集锦", link: "/docs/Python/1.html", icon: "RequestQuote" },
         ]
       },
       //{ text: "文档", link: "/docs/Python/1.html", icon: "Document" },
@@ -127,6 +136,6 @@ export default defineUserConfig({
    
   }),
   
-  // debug: true,
+  debug: true,
 });
 
