@@ -27,8 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: 
-            npm install
-            npm run build
+            npm install && npm run build
     - uses: manyuanrong/setup-ossutil@v2.0
       with:
         # endpoint 可以去oss控制台上查看
