@@ -36,6 +36,6 @@ jobs:
         access-key-id: ${{ secrets.OSS_ACCESS_KEY_ID }}
         access-key-secret: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
     - name: List build directory
-      run: ls
+      run: cd .vuepress && ls
     - name: Deply To OSS
       run: ossutil cp -r ./vuepress/dist oss://blog-bucket-linxc/
