@@ -16,7 +16,9 @@ export default defineUserConfig({
     ['link', { rel: 'icon', href: '/超人虎IP.ico' }],
     ['meta', { name: 'keywords', content: '个人博客网页' }],  
     ['meta', { name: 'description', content: '个人博客网页' }],  
-    ['meta', { name: 'author', content: 'Mr.Lin' }],  
+    ['meta', { name: 'author', content: 'Mr.Lin' }], 
+    //['link',{ rel:'stylesheet',src:'/js/aigolia.css'}],
+    //['script',{"language":"javascript","type":"text/javascript","src":"/js/aigolia.js"}], 
     // 引入jquery
     ["script", {
       "language": "javascript",
@@ -92,6 +94,14 @@ export default defineUserConfig({
     catalogTitle: "☆本文目录☆",
     author: "Mr.Lin",
     authorAvatar: "/head.png",
+    algolia: {
+      appId: 'JC1CPC3I1H',
+      apiKey: '0dc03a4ea560ba84a6098fb6bacbf06f',
+      indexName: 'ideasphere',
+      inputSelector: '.search-box',
+      algoliaOptions: { 'facetFilters': ["lang:$LANG"] },
+      debug: false // Set debug to true if you want to inspect the dropdown
+    },
     //navbar: false,
     //docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
     //docsBranch: "main",
@@ -138,4 +148,3 @@ export default defineUserConfig({
   
   debug: true,
 });
-
