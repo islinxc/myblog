@@ -23,9 +23,9 @@ bannerBrand:
 blog:
   socialLinks:
    # - { icon: 'LogoGithub', link: 'https://github.com/recoluan' }
-isShowTitleInHome: false
-actionText: 关于
-actionLink: /views/other/about
+#isShowTitleInHome: false
+#actionText: 关于
+#actionLink: /views/other/about
 
 features:  
   - title: Yesterday  

@@ -5,7 +5,6 @@
       v-for="(item, index) in friendshipLinks"
       :key="index"
       @click="() => handlClick(item.link)"
-      @hover="() => handleMouseEnter()"
     >
       <div class="logo">
         <img :src="item.logo" />
@@ -28,10 +27,5 @@ const friendshipLinks = computed(() => {
 
 const handlClick = (link: string) => {
   window.open(link, '_blank')
-}
-
-const handleMouseEnter = () => {
-  console.log('鼠标移到按钮上了');
-      // 这里可以执行其他逻辑
 }
 </script>

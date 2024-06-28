@@ -17,8 +17,6 @@ export default defineUserConfig({
     ['meta', { name: 'keywords', content: '个人博客网页' }],  
     ['meta', { name: 'description', content: '个人博客网页' }],  
     ['meta', { name: 'author', content: 'Mr.Lin' }], 
-    //['link',{ rel:'stylesheet',src:'/js/aigolia.css'}],
-    //['script',{"language":"javascript","type":"text/javascript","src":"/js/aigolia.js"}], 
     // 引入jquery
     ["script", {
       "language": "javascript",
@@ -102,6 +100,173 @@ export default defineUserConfig({
       algoliaOptions: { 'facetFilters': ["lang:$LANG"] },
       debug: false // Set debug to true if you want to inspect the dropdown
     },
+    friendshipLinks: [
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: 'JSON Editor Online',
+        logo: 'https://ae01.alicdn.com/kf/Hac93258007754340927a1e0712c760ddf.png',
+        link: 'https://jsoneditoronline.org/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      },
+      {
+        title: '百度统计',
+        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
+        link: 'https://tongji.baidu.com/'
+      }
+    ],
     //navbar: false,
     //docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
     //docsBranch: "main",
@@ -111,6 +276,7 @@ export default defineUserConfig({
     lastUpdated: "lastUpdated",
     subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     editLinkText: "编辑此页",
+    editLink: true,
     // series 为原 sidebar
     series: {
       "/docs/Python/": [
@@ -120,6 +286,7 @@ export default defineUserConfig({
         },
       ],
     },
+    
     navbar: [
       { text: "首页", link: "/", icon: "Home" },
       {  
@@ -134,16 +301,16 @@ export default defineUserConfig({
         children: [
           { text: "Python", link: "/docs/Python/1.html", icon: "LogoPython" },
           { text: "Java面试", link: "/docs/Python/1.html", icon: "Book" },
-          { text: "问题集锦", link: "/docs/Python/1.html", icon: "RequestQuote" },
+          { text: "问题集锦", link: "/docs/Python/1.html", icon: "RequestQuote" }
         ]
       },
-      //{ text: "文档", link: "/docs/Python/1.html", icon: "Document" },
       { text: "时间线", link: "/timeline", icon: "TextLineSpacing" },
-      { text: "常用网站", link: "https://dh.xiaokang.me/", icon: "LocationSave" },
+      { text: "文件", link: "/blogs/doc.html", icon: "TextLineSpacing" },
+      { text: "常用网站", link: "/friendship-link.html", icon: "LocationSave" },
       { text: "关于本站", link: "/about", icon: "ChartRing" },
       { text: "其他网站", link: "https://open.163.com/", icon: "", target: "_self"}
     ],
-   
+    
   }),
   
   debug: true,
