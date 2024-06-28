@@ -16,7 +16,7 @@ export default defineUserConfig({
     ['link', { rel: 'icon', href: '/超人虎IP.ico' }],
     ['meta', { name: 'keywords', content: '个人博客网页' }],  
     ['meta', { name: 'description', content: '个人博客网页' }],  
-    ['meta', { name: 'author', content: 'Mr.Lin' }], 
+    //['meta', { name: 'author', content: 'Mr.Lin' }], 
     // 引入jquery
     ["script", {
       "language": "javascript",
@@ -90,7 +90,7 @@ export default defineUserConfig({
     style: "@vuepress-reco/style-default",
     logo: "/超人虎IP.png",
     catalogTitle: "☆本文目录☆",
-    author: "Mr.Lin",
+    //author: "Mr.Lin",
     authorAvatar: "/head.png",
     algolia: {
       appId: 'JC1CPC3I1H',
@@ -308,7 +308,7 @@ export default defineUserConfig({
       { text: "文件", link: "/blogs/doc.html", icon: "TextLineSpacing" },
       { text: "常用网站", link: "/friendship-link.html", icon: "LocationSave" },
       { text: "关于本站", link: "/about", icon: "ChartRing" },
-      { text: "其他网站", link: "https://open.163.com/", icon: "", target: "_self"}
+      { text: "联系本尊", link: "/blogs/contact.html", icon: "", target: "_self"}
     ],
     
   }),
