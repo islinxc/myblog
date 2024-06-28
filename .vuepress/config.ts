@@ -305,10 +305,10 @@ export default defineUserConfig({
         ]
       },
       { text: "时间线", link: "/timeline", icon: "TextLineSpacing" },
-      { text: "文件", link: "/blogs/doc.html", icon: "TextLineSpacing" },
+      { text: "文件", link: "/blogs/doc.html", icon: "Doc" },
       { text: "常用网站", link: "/friendship-link.html", icon: "LocationSave" },
       { text: "关于本站", link: "/about", icon: "ChartRing" },
-      { text: "联系本尊", link: "/blogs/contact.html", icon: "", target: "_self"}
+      { text: "联系本尊", link: "/blogs/contact.html", icon: "LogoWechat", target: "_self"}
     ],
     
   }),
