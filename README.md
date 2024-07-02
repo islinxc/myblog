@@ -123,4 +123,30 @@ h1.title {
     font-size: 12px;       /* 调整字体大小以适应小屏幕 */
   }
 }
+
+@media (max-width: 768px) {
+  .cyber-security {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 1rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .cyber-security {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 1rem;
+    text-align: left;
+  }
+}
+
+
 </style>

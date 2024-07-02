@@ -102,168 +102,204 @@ export default defineUserConfig({
     },
     friendshipLinks: [
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/',
-        tip: '用来统计网站信息的'
+        tip: '用来统计网站信息的SASASASASAS'
       },
       {
+        category: '工具类',
         title: 'JSON Editor Online',
         logo: 'https://ae01.alicdn.com/kf/Hac93258007754340927a1e0712c760ddf.png',
         link: 'https://jsoneditoronline.org/',
         tip: '用来统计网站信息的大方的减肥的反间谍法非法叽叽叽叽垃圾垃圾急急急急急急急急急急急急急急急急急急积极'
       },
       {
+        category: '工具类',
+        title: 'JSON Editor Online',
+        logo: 'https://ae01.alicdn.com/kf/Hac93258007754340927a1e0712c760ddf.png',
+        link: 'https://jsoneditoronline.org/',
+        tip: '用来统计网站信息的大方的减肥的反间谍法非法叽叽叽叽垃圾垃圾急急急急急急急急急急急急急急急急急急积极'
+      },
+      {
+        category: '设计类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
+        title: 'JSON Editor Online',
+        logo: 'https://ae01.alicdn.com/kf/Hac93258007754340927a1e0712c760ddf.png',
+        link: 'https://jsoneditoronline.org/',
+        tip: '用来统计网站信息的大方的减肥的反间谍法非法叽叽叽叽垃圾垃圾急急急急急急急急急急急急急急急急急急积极'
+      },
+      {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
+        title: 'JSON Editor Online',
+        logo: 'https://ae01.alicdn.com/kf/Hac93258007754340927a1e0712c760ddf.png',
+        link: 'https://jsoneditoronline.org/',
+        tip: '用来统计网站信息的大方的减肥的反间谍法非法叽叽叽叽垃圾垃圾急急急急急急急急急急急急急急急急急急积极'
+      },
+      {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'
       },
       {
-        title: '百度统计',
-        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
-        link: 'https://tongji.baidu.com/'
-      },
-      {
-        title: '百度统计',
-        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
-        link: 'https://tongji.baidu.com/'
-      },
-      {
-        title: '百度统计',
-        logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
-        link: 'https://tongji.baidu.com/'
-      },
-      {
+        category: '工具类',
         title: '百度统计',
         logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
         link: 'https://tongji.baidu.com/'

@@ -1,5 +1,6 @@
 ---
 lastUpdated: false
+subSidebar: false
 ---
 这里，是我用笔尖记录生活、分享感悟的私人角落。
 
@@ -10,8 +11,7 @@ lastUpdated: false
 同时，这里也是我心灵的驿站。在这里，我记录着生活的点滴，分享着心情的起伏。或许是一篇关于旅行的游记，或许是一段关于友情的回忆，又或许是对某个瞬间的深刻感悟。这些文字，都是我真挚情感的流露，希望它们能触动你的心弦，引起你的共鸣。
 
 如果你也喜欢阅读、喜欢思考，那就请常来“墨海思微澜”做客吧！让我们一起在这片墨海中，感受知识的力量，品味生活的美好。
-<Meting mid="003UTVCN0QvffG" server="tencent" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
-<!-- 这样就可以在页面单独引入一个播放器咯～ -->
+
 
 ### Badge <Badge text="beta" type="warning"/> <Badge text="默认主题"/>
 ::: tip
@@ -40,3 +40,6 @@ console.log('你好，VuePress！')
 ```
 :::
 ## 指南⏰
+
+
+
