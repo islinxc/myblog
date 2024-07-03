@@ -192,4 +192,4 @@ password: bb92b25997ab4f50fede442f6177889a
 
 
 <span style="font-weight: 700;font-size: x-large;">Python相关文档</span><p/>
-[2024 零基础小白7天快速入门Python课程(无废话版)更新到第75讲](https://www.ideasphere.cn/doc/python/2024 零基础小白7天快速入门Python课程(无废话版)更新到第75讲.pdf)
+[2024零基础小白7天快速入门Python课程(无废话版)更新到第75讲](https://www.ideasphere.cn/doc/python/2024零基础小白7天快速入门Python课程(无废话版)更新到第75讲.pdf)
