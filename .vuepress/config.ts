@@ -13,7 +13,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   // 添加到html的head顶部的东西
   head: [
-    ['link', { rel: 'icon', href: '/超人虎IP.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'keywords', content: '个人博客网页' }],  
     ['meta', { name: 'description', content: '个人博客网页' }],  
     //['meta', { name: 'author', content: 'Mr.Lin' }], 
@@ -89,7 +89,7 @@ export default defineUserConfig({
   theme: recoTheme({
     primaryColor: '#3aa675',
     style: "@vuepress-reco/style-default",
-    logo: "/超人虎IP.png",
+    logo: "/logo.png",
     catalogTitle: "☆本文目录☆",
     //author: "Mr.Lin",
     authorAvatar: "/head.png",
