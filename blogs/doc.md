@@ -47,8 +47,6 @@ lastUpdated: false
 
 [保险专业中介机构法人名单（截至2022年12月末）](https://www.ideasphere.cn/doc/insurance/保险专业中介机构法人名单（截至2022年12月末）.pdf)
 
-[保险专业中介机构法人名单（截至2022年12月末）](https://www.ideasphere.cn/doc/insurance/保险专业中介机构法人名单（截至2022年12月末）.pdf)
-
 [保险公司反洗钱基础知识-36页](https://www.ideasphere.cn/doc/insurance/保险公司反洗钱基础知识-36页.pdf)
 
 [保险公司财务基本知识讲解-54页](https://www.ideasphere.cn/doc/insurance/保险公司财务基本知识讲解-54页.pdf)
