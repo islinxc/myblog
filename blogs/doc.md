@@ -4,7 +4,7 @@ subSidebar: false
 lastUpdated: false
 ---
 
-## 保险相关文档
+<span style="font-weight: 700;font-size: x-large;">保险相关文档</span><p/>
 [2018保险术语](https://www.ideasphere.cn/doc/insurance/2018保险术语.pdf)
 
 [2020版车险费改测试题带答案-45页](https://www.ideasphere.cn/doc/insurance/2020版车险费改测试题带答案-45页.pdf)
@@ -190,9 +190,3 @@ lastUpdated: false
 [非车险相关规范性文件汇编-69页](https://www.ideasphere.cn/doc/insurance/非车险相关规范性文件汇编-69页.pdf)
 
 [非车险销售话术和业务操作手册-15页](https://www.ideasphere.cn/doc/insurance/非车险销售话术和业务操作手册-15页.pdf)
-
-<style>
-.page-catalog-container {
-    display: none;
-}
-</style>
