@@ -87,6 +87,7 @@ export default defineUserConfig({
   //head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // bundler: webpackBundler(),
   theme: recoTheme({
+    primaryColor: '#3aa675',
     style: "@vuepress-reco/style-default",
     logo: "/超人虎IP.png",
     catalogTitle: "☆本文目录☆",
