@@ -94,6 +94,12 @@ export default defineUserConfig({
     catalogTitle: "☆本文目录☆",
     //author: "Mr.Lin",
     authorAvatar: "/head.png",
+    pages: [
+      {
+        path: '/aaa.html',
+        layout: 'FriendshipLink',
+      },
+    ],
     algolia: {
       appId: 'JC1CPC3I1H',
       apiKey: '0dc03a4ea560ba84a6098fb6bacbf06f',
@@ -142,9 +148,9 @@ export default defineUserConfig({
       },
       { text: "时间线", link: "/timeline", icon: "TextLineSpacing" },
       { text: "文件", link: "/blogs/doc.html", icon: "Doc" },
-      { text: "常用网站", link: "/friendship-link.html", icon: "LocationSave" },
+      { text: "工具宝库", link: "/friendship-link.html", icon: "LocationSave" },
       { text: "关于本站", link: "/about", icon: "ChartRing" },
-      { text: "联系本尊", link: "/blogs/contact.html", icon: "LogoWechat", target: "_self"}
+      { text: "联系站长", link: "/blogs/contact.html", icon: "LogoWechat", target: "_self"}
     ],
     
   }),
