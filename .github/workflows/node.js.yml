@@ -18,19 +18,21 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v4
+    - name: checkout
+      uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node-version }}
-    - uses: actions/setup-node@v3
+      uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-      run: 
-        npm install vuepress@2.0.0-rc.13
+    - name: install vuepress  
+      run: npm install vuepress@2.0.0-rc.13
     - name: Grant execute permissions
       run: chmod +x ./node_modules/.bin/vuepress
-    - name: build
+    - name: build blog
       run: npm run build
-    - uses: manyuanrong/setup-ossutil@v2.0
+    - name: use ossutil
+      uses: manyuanrong/setup-ossutil@v2.0
       with:
         # endpoint 可以去oss控制台上查看
         endpoint: "oss-cn-hongkong.aliyuncs.com"
