@@ -5,9 +5,9 @@
     <MagicCard
       class="friendship-link-item"
       v-for="(item, index) in categoryLinks"
-      :key="index"
+      :key="category+index"
       @click="() => handlClick(item.link)"
-      @mouseover="(e) => handleMouseEnter(e, index)"
+      @mouseover="(e) => handleMouseEnter(e, category+index)"
       @mouseleave="handleMouseLeave"
     >
       <div class="content">
@@ -19,7 +19,7 @@
           <span class="desc">{{ item.tip }}</span>
         </div>
       </div>
-      <div class="tooltip" :style="tooltipStyles[index]">{{ item.tip }}</div>
+      <div class="tooltip" :style="tooltipStyles[category+index]">{{ item.tip }}</div>
     </MagicCard>
   </div>
   </div>
@@ -51,7 +51,7 @@ const handlClick = (link: string) => {
 }
 
 const tooltipStyles = ref([]);   // 使用 ref 创建一个响应式数组
-const handleMouseEnter = (event: MouseEvent, index: number) => {
+const handleMouseEnter = (event: MouseEvent, index: string) => {
   const card = event.currentTarget as HTMLElement;
   const rect = card.getBoundingClientRect();
   tooltipStyles.value[index] = {
@@ -144,5 +144,17 @@ const handleMouseLeave = () => {
   border-width: 5px;
   border-style: solid;
   border-color: transparent transparent #b62c27 transparent; /* 箭头的颜色与提示框的背景色一致 */
+}
+
+/* Hide tooltips on mobile devices */
+@media (max-width: 768px) {
+  .tooltip {
+    display: none !important;
+  }
+}
+@media (max-width: 480px) {
+  .tooltip {
+    display: none !important;
+  }
 }
 </style>
