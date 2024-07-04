@@ -22,7 +22,7 @@
           :key="index">
           <router-link
             class="category-link"
-            :to="`/categories/${categoryValue}/12.html`"
+            :to="`/categories/${categoryValue}/1.html`"
           >
             <span class="text">{{ label }}</span>
             <span class="num">{{ length }}</span>
