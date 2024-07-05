@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite';
 import friendshipLinksData from './public/js/friendshipLinks';
+import { sitemapPlugin } from 'vuepress-plugin-sitemap2';
 //import { backPlugin } from 'vuepress-plugin-background';
 //import { bgmPlayer } from 'vuepress-plugin-bgm-player2x';
 //import { live2dPlugin } from 'vuepress-plugin-live2d-plus'
@@ -33,6 +34,7 @@ export default defineUserConfig({
   ],
   
   plugins: [
+    sitemapPlugin({hostname:"https://www.ideasphere.cn"}),
     /*
     bgmPlayer({rootComponent:true,audios: [
       //网易云id实例
@@ -146,9 +148,10 @@ export default defineUserConfig({
           { text: "问题集锦", link: "/docs/Python/1.html", icon: "RequestQuote" }
         ]
       },
-      { text: "时间线", link: "/timeline", icon: "TextLineSpacing" },
       { text: "文件", link: "/blogs/doc.html", icon: "Doc" },
-      { text: "工具宝库", link: "/friendship-link.html", icon: "LocationSave" },
+      { text: "时间线", link: "/timeline", icon: "TextLineSpacing" },
+      
+      { text: "工具宝库", link: "/friendship-link.html", icon: "Webhook" },
       { text: "关于本站", link: "/about", icon: "ChartRing" },
       { text: "联系站长", link: "/blogs/contact.html", icon: "LogoWechat", target: "_self"}
     ],
