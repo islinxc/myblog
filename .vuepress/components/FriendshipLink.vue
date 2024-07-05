@@ -3,7 +3,7 @@
       <div class="friendship-link-container category-title">{{ category }}</div>
   <div class="friendship-link-container">
     <MagicCard
-      class="friendship-link-item"
+      class="friendship-link-item magic-card1"
       v-for="(item, index) in categoryLinks"
       :key="category+index"
       @click="() => handlClick(item.link)"
@@ -156,5 +156,12 @@ const handleMouseLeave = () => {
   .tooltip {
     display: none !important;
   }
+}
+.magic-card1 {
+  border-radius: 0.5rem;
+  position: relative;
+  background: rgb(58 166 117 / 90%);
+  border-width: 1px;
+  border-style: solid;
 }
 </style>

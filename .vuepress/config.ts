@@ -3,10 +3,9 @@ import recoTheme from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite';
 import friendshipLinksData from './public/js/friendshipLinks';
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2';
-//import { backPlugin } from 'vuepress-plugin-background';
-//import { bgmPlayer } from 'vuepress-plugin-bgm-player2x';
-//import { live2dPlugin } from 'vuepress-plugin-live2d-plus'
-//import { nextSearchPlugin } from 'vuepress-plugin-next-search'
+import navbarData from './public/js/navbar';
+import pluginsData from './public/js/plugins';
+import headData from './public/js/head';
 
 export default defineUserConfig({
   title: "墨海思微澜",
@@ -14,78 +13,9 @@ export default defineUserConfig({
   //port: 9999,   //运行端口号
   bundler: viteBundler(),
   // 添加到html的head顶部的东西
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'keywords', content: '个人博客网页' }],  
-    ['meta', { name: 'description', content: '个人博客网页' }],  
-    //['meta', { name: 'author', content: 'Mr.Lin' }], 
-    // 引入jquery
-    ["script", {
-      "language": "javascript",
-      "type": "text/javascript",
-      "src": "/js/jquery.min.js"
-    }],
-    // 引入鼠标点击脚本
-    ["script", {
-      "language": "javascript",
-      "type": "text/javascript",
-      "src": "/js/MouseClickEffect.js"
-    }] 
-  ],
+  head: headData.head,
   
-  plugins: [
-    sitemapPlugin({hostname:"https://www.ideasphere.cn"}),
-    /*
-    bgmPlayer({rootComponent:true,audios: [
-      //网易云id实例
-      {
-        audioID: '574919767',
-        autoplay: true,
-        autoShrink: true,
-        shrinkMode: 'mini',
-
-      }]}
-    ),
-    
-    backPlugin({
-      type: 'normalLine',
-      options:{
-        //背景颜色
-        backColor: '',
-        color: '#00FFFF'
-      }
-    }),
-    */
-   /*
-    nextSearchPlugin({
-      fullText: true,
-      placeholder: '搜索',
-      frontmatter: {
-        tag: '标签',
-        category: '分类',
-      }
-    }),*/
-    /*
-    live2dPlugin({
-      enable: true,
-      model: {
-        url: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/haru01/haru01.model.json'
-      },
-      display: {
-        position: 'right',
-        width: '189px',
-        height: '420px',
-        xOffset: '50px',
-        yOffset: '-80px'
-      },
-      mobile: {
-        show: true
-      },
-      react: {
-        opacity: 0.8
-      }
-    })*/
-  ],
+  plugins: pluginsData.plugins,
   
   //head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // bundler: webpackBundler(),
@@ -98,8 +28,8 @@ export default defineUserConfig({
     authorAvatar: "/head.png",
     pages: [
       {
-        path: '/aaa.html',
-        layout: 'FriendshipLink',
+        //path: '/aaa.html',
+        //layout: 'FriendshipLink',
       },
     ],
     algolia: {
@@ -131,30 +61,7 @@ export default defineUserConfig({
       ],
     },
     
-    navbar: [
-      { text: "首页", link: "/", icon: "Home" },
-      {  
-        text: "博客", icon: "Blog",
-        children: [
-          { text: "分类", link: "/categories/Python/1", icon: "CollapseCategories" },
-          { text: "标签", link: "/tags/Pythonyuyan/1", icon: "TagGroup" }
-        ]
-      },
-      {  
-        text: "文档", icon: "Document",
-        children: [
-          { text: "Python", link: "/docs/Python/1.html", icon: "LogoPython" },
-          { text: "Java面试", link: "/docs/Python/1.html", icon: "Book" },
-          { text: "问题集锦", link: "/docs/Python/1.html", icon: "RequestQuote" }
-        ]
-      },
-      { text: "文件", link: "/blogs/doc.html", icon: "Doc" },
-      { text: "时间线", link: "/timeline", icon: "TextLineSpacing" },
-      
-      { text: "工具宝库", link: "/friendship-link.html", icon: "Webhook" },
-      { text: "关于本站", link: "/about", icon: "ChartRing" },
-      { text: "联系站长", link: "/blogs/contact.html", icon: "LogoWechat", target: "_self"}
-    ],
+    navbar: navbarData.navbar,
     
   }),
   
