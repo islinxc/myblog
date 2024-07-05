@@ -12,7 +12,7 @@
       <PersonalInfo />
 
       <h4 class="module-title">
-        <Xicons icon="Folder" text="Categories" />
+        <Xicons icon="Folder" text="分类" />
       </h4>
 
       <ul class="category-wrapper">
@@ -31,7 +31,7 @@
       </ul>
 
       <h4 class="module-title">
-        <Xicons icon="Tag" text="Tags" />
+        <Xicons icon="Tag" text="标签" />
       </h4>
 
       <ul class="tag-wrapper">

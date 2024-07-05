@@ -17,12 +17,9 @@ bannerBrand:
   tagline:  ' 1'
   buttons:
     - { text: 巅峰之路→, link: '/posts.html' }
-    #- { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
-  socialLinks:
-    #- { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
 blog:
   socialLinks:
-   # - { icon: 'LogoGithub', link: 'https://github.com/recoluan' }
+   - { icon: 'LogoGithub', link: 'https://github.com/recoluan' }
 #isShowTitleInHome: false
 #actionText: 关于
 #actionLink: /views/other/about
@@ -147,6 +144,4 @@ h1.title {
     text-align: left;
   }
 }
-
-
 </style>

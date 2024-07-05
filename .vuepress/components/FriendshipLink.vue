@@ -5,7 +5,7 @@
     <MagicCard
       class="friendship-link-item magic-card1"
       v-for="(item, index) in categoryLinks"
-      :key="category+index"
+      :key="category+index" :style="magicStyles[category+index]"
       @click="() => handlClick(item.link)"
       @mouseover="(e) => handleMouseEnter(e, category+index)"
       @mouseleave="handleMouseLeave"
@@ -51,9 +51,13 @@ const handlClick = (link: string) => {
 }
 
 const tooltipStyles = ref([]);   // 使用 ref 创建一个响应式数组
+const magicStyles = ref([]);   // 使用 ref 创建一个响应式数组
 const handleMouseEnter = (event: MouseEvent, index: string) => {
   const card = event.currentTarget as HTMLElement;
   const rect = card.getBoundingClientRect();
+  magicStyles.value[index] = {
+    'background-color': 'rgb(59 130 246 / 0.5)'
+  };
   tooltipStyles.value[index] = {
     display: 'block',
     //left: `${rect.left}px`, // 加上 scrollX 以处理水平滚动
@@ -63,6 +67,7 @@ const handleMouseEnter = (event: MouseEvent, index: string) => {
 
 const handleMouseLeave = () => {
   tooltipStyles.value = [];
+  magicStyles.value = [];
 };
 </script>
 
@@ -124,7 +129,7 @@ const handleMouseLeave = () => {
   display: none;
   position: absolute;
   padding: 10px;
-  background-color: #b62c27;
+  background-color: rgb(16 0 255);
   color: #fff;
   border-radius: 5px;
   white-space: normal; /* 允许内容换行 */
@@ -143,7 +148,7 @@ const handleMouseLeave = () => {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent #b62c27 transparent; /* 箭头的颜色与提示框的背景色一致 */
+  border-color: transparent transparent rgb(16 0 255) transparent; /* 箭头的颜色与提示框的背景色一致 */
 }
 
 /* Hide tooltips on mobile devices */
