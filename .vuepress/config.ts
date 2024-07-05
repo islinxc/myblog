@@ -28,8 +28,8 @@ export default defineUserConfig({
     authorAvatar: "/head.png",
     pages: [
       {
-        //path: '/aaa.html',
-        //layout: 'FriendshipLink',
+        path: '/tools.html',
+        layout: 'FriendshipLink',
       },
     ],
     algolia: {

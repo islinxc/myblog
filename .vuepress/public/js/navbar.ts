@@ -19,7 +19,7 @@ export default {
       { text: "文件", link: "/blogs/doc.html", icon: "Doc" },
       { text: "时间线", link: "/timeline", icon: "TextLineSpacing" },
       
-      { text: "工具宝库", link: "/friendship-link.html", icon: "Webhook" },
+      { text: "工具库", link: "/tools.html", icon: "Webhook" },
       { text: "关于本站", link: "/about", icon: "ChartRing" },
       { text: "联系站长", link: "/blogs/contact.html", icon: "LogoWechat", target: "_self"}
     ]
