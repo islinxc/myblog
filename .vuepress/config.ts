@@ -88,7 +88,7 @@ export default defineUserConfig({
   //head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // bundler: webpackBundler(),
   theme: recoTheme({
-    primaryColor: '#3aa675',
+    primaryColor: "#3aa675",
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     catalogTitle: "☆本文目录☆",
@@ -115,8 +115,8 @@ export default defineUserConfig({
     //docsDir: "/blogs",
     //repoLabel: "仓库",
     lastUpdatedText: "最近一次更新",
-    lastUpdated: "lastUpdated",
-    subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+    lastUpdated: true,
+    subSidebar: true, //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     editLinkText: "编辑此页",
     editLink: true,
     // series 为原 sidebar

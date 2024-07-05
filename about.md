@@ -13,7 +13,7 @@ subSidebar: false
 如果你也喜欢阅读、喜欢思考，那就请常来“墨海思微澜”做客吧！让我们一起在这片墨海中，感受知识的力量，品味生活的美好。
 
 
-### Badge <Badge text="beta" type="warning"/> <Badge text="默认主题"/>
+<span style="font-weight:bold;font-size:28">Badge</span> <Badge text="beta" type="warning"/> <Badge text="默认主题"/>
 ::: tip
 这是一个提示
 :::
@@ -39,7 +39,7 @@ subSidebar: false
 console.log('你好，VuePress！')
 ```
 :::
-## 指南⏰
+指南⏰
 
 
 

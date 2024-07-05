@@ -15,7 +15,7 @@
           <img :src="item.logo" />
         </div>
         <div class="text">
-          <span class="tit">1212</span>
+          <span class="tit">{{ item.title }}</span>
           <span class="desc">{{ item.tip }}</span>
         </div>
       </div>
