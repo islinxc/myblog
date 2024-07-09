@@ -45,7 +45,7 @@ export default {
 	  {
 		category: 'AI工具',
 		title: '道客巴巴',
-		logo: 'https://res.doc88.com/resources/images/logo.png',
+		logo: './daoke.png',
 		link: 'https://www.doc88.com/',
 		tip: '查询文献：各种论文的文献出处'
 	  },
