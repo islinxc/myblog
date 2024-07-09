@@ -38,7 +38,7 @@ export default {
 	  {
 		category: 'AI工具',
 		title: '飞书妙记',
-		logo: 'https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/3b2bbcd42878447c914449eb0e56fea6~tplv-jbbdkfciu3-png:0:0.png',
+		logo: './feishu.png',
 		link: 'https://www.feishu.cn/',
 		tip: '直接输入你的PPT主题即可快速一键生成文档，或下载官方插件，体验更丰富的创作功能——输入一段话直接生成PPT'
 	  },
