@@ -4,8 +4,8 @@ export default {
       {  
         text: "博客", icon: "Blog",
         children: [
-          { text: "分类", link: "/categories/Python/1", icon: "CollapseCategories" },
-          { text: "标签", link: "/tags/Pythonyuyan/1", icon: "TagGroup" }
+          { text: "分类", link: "/categories/Python/1.html", icon: "CollapseCategories" },
+          { text: "标签", link: "/tags/Pythonyuyan/1.html", icon: "TagGroup" }
         ]
       },
       {  
@@ -17,10 +17,10 @@ export default {
         ]
       },
       { text: "文件", link: "/blogs/doc.html", icon: "Doc" },
-      { text: "时间线", link: "/timeline", icon: "TextLineSpacing" },
+      { text: "时间线", link: "/timeline.html", icon: "TextLineSpacing" },
       
       { text: "工具库", link: "/tools.html", icon: "Webhook" },
-      { text: "关于本站", link: "/about", icon: "ChartRing" },
+      { text: "关于本站", link: "/about.html", icon: "ChartRing" },
       { text: "联系站长", link: "/blogs/contact.html", icon: "LogoWechat", target: "_self"}
     ]
 }

@@ -36,6 +36,27 @@ export default {
 		tip: '直接输入你的PPT主题即可快速一键生成文档，或下载官方插件，体验更丰富的创作功能——输入一段话直接生成PPT'
 	  },
 	  {
+		category: 'AI工具',
+		title: '飞书妙记',
+		logo: 'https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/3b2bbcd42878447c914449eb0e56fea6~tplv-jbbdkfciu3-png:0:0.png',
+		link: 'https://www.feishu.cn/',
+		tip: '直接输入你的PPT主题即可快速一键生成文档，或下载官方插件，体验更丰富的创作功能——输入一段话直接生成PPT'
+	  },
+	  {
+		category: 'AI工具',
+		title: '道客巴巴',
+		logo: 'https://res.doc88.com/resources/images/logo.png',
+		link: 'https://www.doc88.com/',
+		tip: '查询文献：各种论文的文献出处'
+	  },
+	  {
+		category: 'AI工具',
+		title: '豆包',
+		logo: 'https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/static/image/OnboardingAvatar.0f4f29a4.webp',
+		link: 'https://www.doubao.com/chat/',
+		tip: '查询文献：各种论文的文献出处'
+	  },
+	  {
 		category: '搜索引擎',
 		title: '百度',
 		logo: 'https://ae01.alicdn.com/kf/Hf5e27f5664224eb191b198587dbc66e11.png',
