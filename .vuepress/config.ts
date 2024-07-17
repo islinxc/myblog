@@ -22,7 +22,7 @@ export default defineUserConfig({
   theme: recoTheme({
     primaryColor: "#3aa675",
     style: "@vuepress-reco/style-default",
-    logo: "/logo.png",
+    logo: "/imgs/logo.png",
     catalogTitle: "☆本文目录☆",
     //author: "Mr.Lin",
     authorAvatar: "/head.png",
@@ -60,7 +60,6 @@ export default defineUserConfig({
         },
       ],
     },
-    
     navbar: navbarData.navbar,
     
   }),
