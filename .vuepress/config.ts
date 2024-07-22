@@ -56,7 +56,7 @@ export default defineUserConfig({
       "/docs/Python/": [
         {
           text: "Python语言",
-          children: ["1", "2", "3", "4", "5"],
+          children: ["1", "2", "3", "4", "5", "12"],
         },
       ],
     },
