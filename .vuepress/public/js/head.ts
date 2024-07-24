@@ -1,6 +1,6 @@
 export default {
     head: [
-        ['link', { rel: 'icon', href: '/imgs/favicon.ico' }],
+        ['link', { rel: 'icon', href: '../imgs/favicon.ico' }],
         ['meta', { name: 'keywords', content: '个人博客网页' }],  
         ['meta', { name: 'description', content: '个人博客网页' }],  
         //['meta', { name: 'author', content: 'Mr.Lin' }], 

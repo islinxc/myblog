@@ -25,7 +25,7 @@ export default defineUserConfig({
     logo: "/imgs/logo.png",
     catalogTitle: "☆本文目录☆",
     //author: "Mr.Lin",
-    authorAvatar: "/head.png",
+    authorAvatar: "/imgs/head.png",
     pages: [
       {
         path: '/tools.html',
