@@ -8,13 +8,13 @@ export default {
         ["script", {
           "language": "javascript",
           "type": "text/javascript",
-          "src": "./js/jquery.min.js"
+          "src": "/js/jquery.min.js"
         }],
         // 引入鼠标点击脚本
         ["script", {
           "language": "javascript",
           "type": "text/javascript",
-          "src": "./js/MouseClickEffect.js"
+          "src": "/js/MouseClickEffect.js"
         }] 
     ]
 }
