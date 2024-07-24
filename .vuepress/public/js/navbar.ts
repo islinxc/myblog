@@ -12,6 +12,8 @@ export default {
         text: "文档", icon: "Document",
         children: [
           { text: "Python", link: "/docs/Python/1.html", icon: "LogoPython" },
+          { text: "Oracle数据库", link: "/docs/Python/1.html", icon: "LogoPython" },
+          { text: "MySQL数据库", link: "/docs/Python/1.html", icon: "LogoPython" },
           { text: "Java面试", link: "/docs/Python/1.html", icon: "Book" },
           { text: "问题集锦", link: "/docs/Python/1.html", icon: "RequestQuote" }
         ]
