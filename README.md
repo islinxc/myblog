@@ -1,7 +1,7 @@
 ---
 home: true
 modules:
-  - BannerBrand
+  - BannerBrandNew
   - Features
   # - Blog
   # - MdContent
@@ -98,26 +98,38 @@ h1.title {
   color: #ff0000; /* 鼠标悬停时的颜色 */
 }
 
+
 /* 媒体查询：调整按钮在不同屏幕尺寸上的样式 */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
+    margin-bottom: -28rem; /* 调整 margin-bottom 以适应移动端 */
+    margin-left: 1.5rem;    /* 调整 margin-left 以适应移动端 */
+    height: 3.5rem;         /* 调整高度以适应移动端 */
+    padding-left: 1.75rem;
+    padding-right: 0.75rem;
+    font-size: 24px;      /* 调整字体大小以适应移动端 */
+  }
+}
+
+@media (max-width: 767px) {
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
     margin-bottom: -28rem; /* 调整 margin-bottom 以适应移动端 */
     margin-left: 1rem;    /* 调整 margin-left 以适应移动端 */
     height: 2rem;         /* 调整高度以适应移动端 */
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    font-size: 14px;      /* 调整字体大小以适应移动端 */
+    font-size: 18px;      /* 调整字体大小以适应移动端 */
   }
 }
 
 @media (max-width: 480px) {
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 3rem; /* 调整 margin-bottom 以适应小屏幕 */
-    margin-left: 0.5rem;   /* 调整 margin-left 以适应小屏幕 */
-    height: 1.5rem;        /* 调整高度以适应小屏幕 */
+    margin-bottom: 3rem; 
+    margin-left: 0.5rem;   
+    height: 1.5rem;        
     padding-left: 0.25rem;
     padding-right: 0.25rem;
-    font-size: 12px;       /* 调整字体大小以适应小屏幕 */
+    font-size: 12px;       
   }
 }
 

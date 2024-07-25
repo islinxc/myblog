@@ -14,7 +14,6 @@
           :text="btn.text"
           :link="btn.link"
           icon-size="18"
-          text-size="19"
         />
       </div>
 

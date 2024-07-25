@@ -65,6 +65,18 @@
   background: #b62c27; /* 箭头的颜色 */
 }
 /* Hide tooltips on mobile devices */
+@media (max-width: 1024px) {
+  .timeline-wrapper .timeline-content::before {
+    content: '';
+    position: absolute;
+    left: 10rem; /* 调整位置以适应时间线的位置 */
+    top: 0;
+    bottom: 0;
+    width: 0px;
+    height: 100%;
+    background: #b62c27; /* 箭头的颜色 */
+  }
+}
 @media (max-width: 768px) {
   .timeline-wrapper .timeline-content::before {
     content: '';
