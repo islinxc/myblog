@@ -97,39 +97,175 @@ h1.title {
 .xicon-content:hover {
   color: #ff0000; /* 鼠标悬停时的颜色 */
 }
-
-
 /* 媒体查询：调整按钮在不同屏幕尺寸上的样式 */
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
+  .banner-brand__wrapper .banner-brand__content {
+    margin-top: -30rem;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: -28rem; /* 调整 margin-bottom 以适应移动端 */
-    margin-left: 1.5rem;    /* 调整 margin-left 以适应移动端 */
-    height: 3.5rem;         /* 调整高度以适应移动端 */
+    margin-bottom: -40rem; 
+    margin-left: 1.5rem;    
+    height: 2.5rem;       
+    padding-left: 1.75rem;
+    padding-right: 0.75rem; 
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
+    font-size: 25px!important;   
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 1366px){
+  .banner-brand__wrapper {
+    height: 54vh;
+  }
+  .banner-brand__wrapper .banner-brand__content {
+    margin-top: -30rem;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
+    margin-bottom: -40rem; 
+    margin-left: 1.5rem;    
+    height: 2.5rem;       
     padding-left: 1.75rem;
     padding-right: 0.75rem;
-    font-size: 24px;      /* 调整字体大小以适应移动端 */
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
+    font-size: 25px!important;    
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) and (max-height: 600px){
+  .banner-brand__wrapper {
+    height: 100vh;
+  }
+  .banner-brand__wrapper .banner-brand__content {
+    margin-top: -30rem;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: -28rem; /* 调整 margin-bottom 以适应移动端 */
-    margin-left: 1rem;    /* 调整 margin-left 以适应移动端 */
-    height: 2rem;         /* 调整高度以适应移动端 */
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    font-size: 18px;      /* 调整字体大小以适应移动端 */
+    margin-bottom: -40rem; 
+    margin-left: 1.5rem;    
+    height: 2.5rem;       
+    padding-left: 1.75rem;
+    padding-right: 0.75rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
+    font-size: 25px!important;    
   }
 }
+
+@media (max-width: 768px){
+  .banner-brand__wrapper {
+    margin-top: -5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content {
+    margin-top: 15rem;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group {
+    margin-top: 0rem;
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: left;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
+    margin-bottom: 6rem; 
+    margin-left: 1.5rem;   
+    height: 3rem;       
+    padding-left: 1.75rem;
+    padding-right: 0.75rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
+    font-size: 28px!important;      
+  }
+}
+
+@media (max-width: 540px){
+  .banner-brand__wrapper {
+    margin-top: -5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content {
+    margin-top: 10rem;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group {
+    margin-top: 5rem;
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: left;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
+    margin-bottom: 5rem;
+    margin-left: 1.5rem;   
+    height: 3rem;         
+    padding-left: 1.75rem;
+    padding-right: 0.75rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
+    font-size: 20px!important;    
+  }
+}
+
 
 @media (max-width: 480px) {
+  .banner-brand__wrapper {
+    margin-top: -4rem;
+  }
+  .banner-brand__wrapper .banner-brand__content {
+    margin-top: 4rem;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
     margin-bottom: 3rem; 
-    margin-left: 0.5rem;   
-    height: 1.5rem;        
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-    font-size: 12px;       
+    margin-left: 1rem;  
+    height: 1.5rem;       
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
+    font-size: 16px!important;    
+  }
+}
+
+@media (max-width: 280px) {
+  .banner-brand__wrapper {
+    margin-top: -2rem;
+  }
+  .banner-brand__wrapper .banner-brand__content {
+    margin-top: -1rem;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
+    margin-bottom: 3rem; 
+    margin-left: 1rem;    
+    height: 1.5rem;       
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
+    font-size: 14px!important;    
   }
 }
 
