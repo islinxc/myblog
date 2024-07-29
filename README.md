@@ -12,11 +12,8 @@ bannerBrand:
   #title: vuepress-reco
   #description:  一款简洁的 vuepress 博客 & 文档 主题。
   #tagline: vuepress-theme-reco 2.0 继续坚持简洁的风格，所有功能开箱即用，首页模块化组装，使用 tailwindcss 书写样式，将 Vite 作为默认编译器。你只需要负责内容创作，其他请交给我。
-  title:  ' 1'
-  description: ' 1'  
-  tagline:  ' 1'
   buttons:
-    - { text: 巅峰之路→, link: '/posts.html' }
+    - { text: '巅峰之路→', link: '/posts.html' }
 blog:
   socialLinks:
    - { icon: 'LogoGithub', link: 'https://github.com/recoluan' }
@@ -100,14 +97,14 @@ h1.title {
 /* 媒体查询：调整按钮在不同屏幕尺寸上的样式 */
 @media (max-width: 1280px) {
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: -30rem;
+    margin-top: 26rem;
     box-sizing: border-box;
     display: block;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: -40rem; 
+    margin-bottom: 0rem; 
     margin-left: 1.5rem;    
     height: 2.5rem;       
     padding-left: 1.75rem;
@@ -123,21 +120,21 @@ h1.title {
     height: 54vh;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: -30rem;
+    margin-top: 25rem;
     box-sizing: border-box;
     display: block;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: -40rem; 
+    margin-bottom: 0rem; 
     margin-left: 1.5rem;    
-    height: 2.5rem;       
+    height: 3rem;       
     padding-left: 1.75rem;
     padding-right: 0.75rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
-    font-size: 25px!important;    
+    font-size: 30px!important;    
   }
 }
 
@@ -146,14 +143,14 @@ h1.title {
     height: 100vh;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: -30rem;
+    margin-top: 19rem;
     box-sizing: border-box;
     display: block;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: -40rem; 
+    margin-bottom: 0rem; 
     margin-left: 1.5rem;    
     height: 2.5rem;       
     padding-left: 1.75rem;
@@ -164,12 +161,12 @@ h1.title {
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .banner-brand__wrapper {
     margin-top: -5rem;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: 15rem;
+    margin-top: 20rem;
     box-sizing: border-box;
     display: block;
     padding-left: 1.5rem;
@@ -182,7 +179,7 @@ h1.title {
     text-align: left;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 6rem; 
+    margin-bottom: 0rem; 
     margin-left: 1.5rem;   
     height: 3rem;       
     padding-left: 1.75rem;
@@ -198,44 +195,89 @@ h1.title {
     margin-top: -5rem;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: 10rem;
+    margin-top: 14rem;
     box-sizing: border-box;
     display: block;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group {
-    margin-top: 5rem;
+    margin-top: 0rem;
     list-style-type: none;
     padding-left: 0px;
     text-align: left;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 5rem;
+    margin-bottom: 0rem;
     margin-left: 1.5rem;   
-    height: 3rem;         
-    padding-left: 1.75rem;
+    height: 2rem;         
+    padding-left: 1.5rem;
     padding-right: 0.75rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
-    font-size: 20px!important;    
+    font-size: 16px!important;    
   }
 }
-
 
 @media (max-width: 480px) {
   .banner-brand__wrapper {
     margin-top: -4rem;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: 4rem;
+    margin-top: 8rem;
     box-sizing: border-box;
     display: block;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 3rem; 
+    margin-bottom: 0rem; 
+    margin-left: 1rem;  
+    height: 1.5rem;       
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
+    font-size: 16px!important;    
+  }
+}
+
+@media (max-width: 480px) and (max-height: 850px){
+  .banner-brand__wrapper {
+    margin-top: -4rem;
+  }
+  .banner-brand__wrapper .banner-brand__content {
+    margin-top: 16rem;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
+    margin-bottom: 0rem; 
+    margin-left: 1rem;  
+    height: 1.5rem;       
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
+    font-size: 16px!important;    
+  }
+}
+
+@media (max-width: 480px) and (max-height: 740px){
+  .banner-brand__wrapper {
+    margin-top: -4rem;
+  }
+  .banner-brand__wrapper .banner-brand__content {
+    margin-top: 14rem;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
+    margin-bottom: 0rem; 
     margin-left: 1rem;  
     height: 1.5rem;       
     padding-left: 0.5rem;
@@ -251,14 +293,14 @@ h1.title {
     margin-top: -2rem;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: -1rem;
+    margin-top: 14rem;
     box-sizing: border-box;
     display: block;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 3rem; 
+    margin-bottom: 0rem; 
     margin-left: 1rem;    
     height: 1.5rem;       
     padding-left: 0.5rem;
