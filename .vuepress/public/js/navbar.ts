@@ -12,9 +12,9 @@ export default {
         text: "文档", icon: "Document",
         children: [
           { text: "Python", link: "/docs/Python/1.html", icon: "LogoPython" },
-          { text: "NIO专题", link: "/docs/java/19.html", icon: "LogoPython" },
-          { text: "Oracle数据库", link: "/docs/Python/1.html", icon: "LogoPython" },
-          { text: "MySQL数据库", link: "/docs/Python/1.html", icon: "LogoPython" },
+          { text: "NIO专题", link: "/docs/java/19.html", icon: "ChartRelationship" },
+          { text: "Oracle数据库", link: "/docs/Python/1.html", icon: "DataBase" },
+          { text: "MySQL数据库", link: "/docs/Python/1.html", icon: "DatabaseDatastax" },
           { text: "Java面试", link: "/docs/Python/1.html", icon: "Book" },
           { text: "问题集锦", link: "/docs/Python/1.html", icon: "RequestQuote" }
         ]
