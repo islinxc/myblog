@@ -53,18 +53,17 @@ export default defineUserConfig({
     editLink: true,
     // series 为原 sidebar
     series: {
-      "/docs/Python/": [
+      "/docs/": [
         {
           text: "Python语言",
-          children: ["1", "2", "3", "4", "5", "12", "13", "14", "15", "16", "17", "18"],
+          children: ["Python/1", "Python/2", "Python/3", "Python/4", "Python/5", "Python/12", "Python/13", "Python/14", "Python/15", "Python/16", "Python/17", "Python/18"],
         },
-      ],
-      "/docs/java/": [
         {
           text: "NIO专题",
-          children: ["19", "20"]
-        }
-      ]
+          children: ["java/19", "java/20"],
+        },
+      ],
+      
     },
     navbar: navbarData.navbar,
     
