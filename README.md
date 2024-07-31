@@ -188,6 +188,16 @@ h1.title {
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
     font-size: 28px!important;      
   }
+  .footer-wrapper .cyber-security {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: left;
+  }
 }
 
 @media (max-width: 540px){
@@ -217,6 +227,16 @@ h1.title {
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
     font-size: 16px!important;    
   }
+  .footer-wrapper .cyber-security {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: left;
+  }
 }
 
 @media (max-width: 480px) {
@@ -239,6 +259,16 @@ h1.title {
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
     font-size: 16px!important;    
+  }
+  .footer-wrapper .cyber-security {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: left;
   }
 }
 
@@ -263,6 +293,16 @@ h1.title {
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
     font-size: 16px!important;    
   }
+  .footer-wrapper .cyber-security {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: left;
+  }
 }
 
 @media (max-width: 480px) and (max-height: 740px){
@@ -285,6 +325,16 @@ h1.title {
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
     font-size: 16px!important;    
+  }
+  .footer-wrapper .cyber-security {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: left;
   }
 }
 
@@ -309,29 +359,16 @@ h1.title {
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
     font-size: 14px!important;    
   }
-}
-
-@media (max-width: 768px) {
-  .cyber-security {
+  .footer-wrapper .cyber-security {
     margin-top: 0px;
     margin-bottom: 0px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-right: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     text-align: left;
   }
 }
 
-@media (max-width: 480px) {
-  .cyber-security {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-right: 1rem;
-    text-align: left;
-  }
-}
 </style>
