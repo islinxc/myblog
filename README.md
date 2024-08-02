@@ -65,53 +65,37 @@ footer:
 ---
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
 <style>
-h1.title {
-  visibility: hidden;
-}
-.description {
-  visibility: hidden;
-}
-.tagline {
-  visibility: hidden;
-}
 .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-  margin-bottom: -13rem;
-  margin-left: 2rem;
-  height: 2.5rem;
-  cursor: pointer;
-  border-radius: .5rem;
-  background-color: #3eaf7c;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  vertical-align: middle;
-  font-weight: 600;
-  line-height: 8;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  transition: color 0.3s ease; 
+    margin-bottom: -22rem;
+    height: 2.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: rgb(58 166 117 / 0.9);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    vertical-align: middle;
+    font-weight: 600;
+    line-height: 1;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.xicon-content:hover {
-  color: #ff0000; /* 鼠标悬停时的颜色 */
-}
+
 /* 媒体查询：调整按钮在不同屏幕尺寸上的样式 */
 @media (max-width: 1280px) {
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: 26rem;
+    margin-top: 1rem;
     box-sizing: border-box;
     display: block;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 0rem; 
-    margin-left: 1.5rem;    
-    height: 2.5rem;       
-    padding-left: 1.75rem;
-    padding-right: 0.75rem; 
+    margin-left: 2rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
-    font-size: 25px!important;   
+    font-size: 25px!important;
+    margin-top: 1rem;
+    height: 2.5rem; 
   }
 }
 
@@ -120,21 +104,16 @@ h1.title {
     height: 54vh;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: 25rem;
+    margin-top: 2rem;
     box-sizing: border-box;
     display: block;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 0rem; 
-    margin-left: 1.5rem;    
-    height: 3rem;       
-    padding-left: 1.75rem;
-    padding-right: 0.75rem;
-  }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
-    font-size: 30px!important;    
+    font-size: 30px!important; 
+    margin-top: 0.5rem;
+    height: 2.5rem;    
   }
 }
 
@@ -143,21 +122,16 @@ h1.title {
     height: 100vh;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: 19rem;
+    margin-top: -3rem;
     box-sizing: border-box;
     display: block;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 0rem; 
-    margin-left: 1.5rem;    
-    height: 2.5rem;       
-    padding-left: 1.75rem;
-    padding-right: 0.75rem;
-  }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
-    font-size: 25px!important;    
+    font-size: 25px!important; 
+    margin-top: 0.5rem;
+    height: 2.5rem;     
   }
 }
 
@@ -166,7 +140,7 @@ h1.title {
     margin-top: -5rem;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: 20rem;
+    margin-top: -2rem;
     box-sizing: border-box;
     display: block;
     padding-left: 1.5rem;
@@ -178,37 +152,20 @@ h1.title {
     padding-left: 0px;
     text-align: left;
   }
-  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 0rem; 
-    margin-left: 1.5rem;   
-    height: 3rem;       
-    padding-left: 1.75rem;
-    padding-right: 0.75rem;
-  }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
     font-size: 28px!important;      
-  }
-  .footer-wrapper .cyber-security {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    text-align: left;
   }
 }
 
 @media (max-width: 540px){
   .banner-brand__wrapper {
-    margin-top: -5rem;
+    margin-top: -2rem;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: 14rem;
+    margin-top: -7rem;
     box-sizing: border-box;
     display: block;
-    padding-left: 1.5rem;
+    padding-left: 0.5rem;
     padding-right: 1.5rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group {
@@ -217,15 +174,10 @@ h1.title {
     padding-left: 0px;
     text-align: left;
   }
-  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 0rem;
-    margin-left: 1.5rem;   
-    height: 2rem;         
-    padding-left: 1.5rem;
-    padding-right: 0.75rem;
-  }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
-    font-size: 16px!important;    
+    font-size: 16px!important;
+    margin-top: 0.5rem;
+    height: 1.5rem;    
   }
   .footer-wrapper .cyber-security {
     margin-top: 0px;
@@ -250,13 +202,6 @@ h1.title {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 0rem; 
-    margin-left: 1rem;  
-    height: 1.5rem;       
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
     font-size: 16px!important;    
   }
@@ -277,18 +222,11 @@ h1.title {
     margin-top: -4rem;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: 16rem;
+    margin-top: -5rem;
     box-sizing: border-box;
     display: block;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 0rem; 
-    margin-left: 1rem;  
-    height: 1.5rem;       
     padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-right: 1.5rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
     font-size: 16px!important;    
@@ -310,18 +248,25 @@ h1.title {
     margin-top: -4rem;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: 14rem;
+    margin-top: -7rem;
     box-sizing: border-box;
     display: block;
-    padding-left: 1.5rem;
+    padding-left: 0.5rem;
     padding-right: 1.5rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 0rem; 
-    margin-left: 1rem;  
-    height: 1.5rem;       
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    margin-bottom: -22rem;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: rgb(58 166 117 / 0.9);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    vertical-align: middle;
+    font-weight: 600;
+    line-height: 1;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
     font-size: 16px!important;    
@@ -343,18 +288,11 @@ h1.title {
     margin-top: -2rem;
   }
   .banner-brand__wrapper .banner-brand__content {
-    margin-top: 14rem;
+    margin-top: -9rem;
     box-sizing: border-box;
     display: block;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-  .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: 0rem; 
-    margin-left: 1rem;    
-    height: 1.5rem;       
     padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-right: 1.5rem;
   }
   .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container .xicon-content {
     font-size: 14px!important;    
@@ -372,3 +310,5 @@ h1.title {
 }
 
 </style>
+
+
