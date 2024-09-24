@@ -68,7 +68,7 @@ footer:
 
 <style>
 .banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
-    margin-bottom: -22rem;
+    margin-bottom: -30rem;
     height: 2.5rem;
     cursor: pointer;
     border-radius: 0.5rem;
