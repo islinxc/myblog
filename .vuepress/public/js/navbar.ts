@@ -13,6 +13,7 @@ export default {
         children: [
           { text: "Python", link: "/docs/Python/1.html", icon: "LogoPython" },
           { text: "NIO专题", link: "/docs/java/19.html", icon: "ChartRelationship" },
+          { text: "html", link: "/docs/html/27.html", icon: "ChartRelationship" },
           { text: "Oracle数据库", link: "/docs/Python/1.html", icon: "DataBase" },
           { text: "MySQL数据库", link: "/docs/Python/1.html", icon: "DatabaseDatastax" },
           { text: "Java面试", link: "/docs/Python/1.html", icon: "Book" },
