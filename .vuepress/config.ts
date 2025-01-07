@@ -64,7 +64,7 @@ export default defineUserConfig({
         },
         {
           text: "html",
-          children: ["html/27", "html/28", "html/29", "html/30", "html/31", "html/32", "html/33"],
+          children: ["html/27", "html/28", "html/29", "html/30", "html/31", "html/32", "html/33", "html/34", "html/35"],
         },
       ],
       
